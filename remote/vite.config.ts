@@ -15,7 +15,7 @@ export default defineConfig({
         "./WebComponent": "./src/main.ts",
       },
     }),
-    cssInjectedByJsPlugin(), // Toggle this plugin to see that it injects the styling
+    // cssInjectedByJsPlugin(), // Toggle this plugin to see that it injects the styling
   ],
   define: {
     "process.env.NODE_ENV": JSON.stringify("production"),
